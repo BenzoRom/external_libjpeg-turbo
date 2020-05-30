@@ -1,19 +1,19 @@
 /* Version ID for the JPEG library.
  * Might be useful for tests like "#if JPEG_LIB_VERSION >= 60".
  */
-#define JPEG_LIB_VERSION 62
+#define JPEG_LIB_VERSION  62
 
 /* libjpeg-turbo version */
-#define LIBJPEG_TURBO_VERSION 2.0.1
+#define LIBJPEG_TURBO_VERSION  2.0.4
 
 /* libjpeg-turbo version in integer form */
-#define LIBJPEG_TURBO_VERSION_NUMBER  2000001
+#define LIBJPEG_TURBO_VERSION_NUMBER  2000004
 
 /* Support arithmetic encoding */
-/* #define C_ARITH_CODING_SUPPORTED 1 */
+#define C_ARITH_CODING_SUPPORTED 1
 
 /* Support arithmetic decoding */
-/* #define D_ARITH_CODING_SUPPORTED 1 */
+#define D_ARITH_CODING_SUPPORTED 1
 
 /* Support in-memory source/destination managers */
 #define MEM_SRCDST_SUPPORTED 1
@@ -63,7 +63,7 @@
 
 /* Define to 1 if type `char' is unsigned and you are not using gcc.  */
 #ifndef __CHAR_UNSIGNED__
-/* # undef __CHAR_UNSIGNED__ */
+/* #undef __CHAR_UNSIGNED__ */
 #endif
 
 /* Define to empty if `const' does not conform to ANSI C. */

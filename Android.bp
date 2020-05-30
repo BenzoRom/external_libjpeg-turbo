@@ -17,7 +17,7 @@ cc_defaults {
         "jaricom.c",
         "jcapimin.c",
         "jcapistd.c",
-//        "jcarith.c",
+        "jcarith.c",
         "jccoefct.c",
         "jccolor.c",
         "jcdctmgr.c",
@@ -34,7 +34,7 @@ cc_defaults {
         "jctrans.c",
         "jdapimin.c",
         "jdapistd.c",
-//        "jdarith.c",
+        "jdarith.c",
         "jdatadst.c",
         "jdatasrc.c",
         "jdcoefct.c",
@@ -60,7 +60,6 @@ cc_defaults {
         "jidctred.c",
         "jmemmgr.c",
         "jmemnobs.c",
-        "jpeg_nbits_table.c",
         "jquant1.c",
         "jquant2.c",
         "jutils.c",
@@ -154,7 +153,6 @@ cc_defaults {
             ],
             local_include_dirs: [
                 "simd",
-//                "simd/i386",
                 "simd/nasm",
             ],
         },
@@ -197,7 +195,6 @@ cc_defaults {
             local_include_dirs: [
                 "simd",
                 "simd/nasm",
-//                "simd/x86_64",
             ],
         },
         mips: {
